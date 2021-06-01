@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: process.env.RISK_BASE_URL || 'https://api-dev.raiadrogasil.io/v1/api/risks',
+    baseURL: process.env.RISK_BASE_URL || '',
 });
 
 let token: string = "";
